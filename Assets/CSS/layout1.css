@@ -29,15 +29,17 @@ body {
 /* Header Styles */
 /* Actual Header Section */
 header {
-    color: white;
-    background-color: black;
-    padding: 1.5rem;
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
     text-align: center;
 }
 
 /* Header Title */
 header h1 {
     font-family: var(--font-header);
+    margin: 0;
+    font-size: 2rem;
 }
 
 
