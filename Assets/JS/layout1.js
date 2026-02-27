@@ -1,49 +1,74 @@
-// Layout 1 
+// Layout 1
 
 // Wait until the HTML document is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
 
     // --------- Update Copyright Year ---------
-    const currentYear = new Date().getFullYear(); // get current year
-    const yearElement = document.getElementById("year"); // target element by ID
+    const currentYear = new Date().getFullYear();
+    const yearElement = document.getElementById("year");
 
     if (yearElement) {
-        yearElement.textContent = currentYear; // update the text
+        yearElement.textContent = currentYear;
     }
 
-    // --------- Make Favicon Circular ---------
-    function makeFaviconCircular(src) {
-        const img = new Image(); // create image object
+    // --------- PRO Favicon (Max Clarity Version) ---------
+    function makeFaviconStyled(src) {
+        const img = new Image();
+
+        // Prevent cross-origin issues if hosted elsewhere
+        img.crossOrigin = "anonymous";
         img.src = src;
 
         img.onload = () => {
-            const size = 64; // size of the favicon canvas
-            const canvas = document.createElement("canvas"); // create canvas
+
+            // Larger internal size → sharper downscaling in browser
+            const size = 128;
+
+            // Very subtle accent ring (optional)
+            const border = 2;
+
+            const canvas = document.createElement("canvas");
             canvas.width = size;
             canvas.height = size;
+
             const ctx = canvas.getContext("2d");
 
-            // create circular clipping mask
+            const center = size / 2;
+            const radius = center;
+
+            // ----- Circular Clip (NO shrinking) -----
+            ctx.save();
             ctx.beginPath();
-            ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
-            ctx.closePath();
+            ctx.arc(center, center, radius - border, 0, Math.PI * 2);
             ctx.clip();
 
-            // draw the image inside the circle
+            // Draw image FULL SIZE (no padding)
             ctx.drawImage(img, 0, 0, size, size);
 
-            // replace the favicon href with the circular version
+            ctx.restore();
+
+            // ----- Clean Accent Ring -----
+            ctx.lineWidth = border;
+            ctx.strokeStyle = "#ffffff"; // change if you want
+
+            ctx.beginPath();
+            ctx.arc(center, center, radius - border / 2, 0, Math.PI * 2);
+            ctx.stroke();
+
+            // Replace favicon
             const favicon = document.querySelector('link[rel="icon"]');
+
             if (favicon) {
                 favicon.href = canvas.toDataURL("image/png");
             }
         };
     }
 
-    // initialize circular favicon using existing link
+    // --------- Initialize Styled Favicon ---------
     const faviconLink = document.querySelector('link[rel="icon"]');
+
     if (faviconLink) {
-        makeFaviconCircular(faviconLink.getAttribute("href"));
+        makeFaviconStyled(faviconLink.getAttribute("href"));
     }
 
 });
