@@ -119,14 +119,6 @@ footer .brand {
   margin: 0;
 }
 
-/* The Footer Tag line */
-footer .tagline {
-  font-style: italic;
-  margin: 5px 0;
-  color: #bbb;
-  font-size: 1rem;
-}
-
 /* The Footer copywrite line */
 footer .copy {
   margin: 5px 0 0;
