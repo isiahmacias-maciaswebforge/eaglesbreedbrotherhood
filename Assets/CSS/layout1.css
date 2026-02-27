@@ -22,7 +22,8 @@ body {
     flex-direction: column;
     font-family: var(--font-main);
     line-height: 1.6;
-    min-height: 100vh;	
+    min-height: 100vh;
+    background-image: url('../Images/americanFlag.jpg');
 }
 
 
@@ -96,4 +97,20 @@ footer a:hover {
     border-top: 1px solid #ccc;
     padding-top: 15px;
 }
+
+/* Left part of the footer content */
+.footer-left {
+    text-align: left;
+}
+
+/* center part of the footer content */
+.footer-center {
+   text-align: center;
+}
+
+/* right part of the footer content */
+.footer-right {
+    text-align: right;
+}
+
 
