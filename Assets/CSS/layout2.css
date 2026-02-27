@@ -29,3 +29,12 @@
     max-width: 120px;
     border-radius: 12px;
 }
+
+
+/* Other Global Styles */
+.tagline {
+    font-style: italic;
+    margin: 5px 0;
+    color: #ffffff;
+    font-size: 1rem;
+}
