@@ -113,4 +113,24 @@ footer a:hover {
     text-align: right;
 }
 
+/* The Footer Title line */
+footer .brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+}
 
+/* The Footer Tag line */
+footer .tagline {
+  font-style: italic;
+  margin: 5px 0;
+  color: #bbb;
+  font-size: 1rem;
+}
+
+/* The Footer copywrite line */
+footer .copy {
+  margin: 5px 0 0;
+  font-size: 0.8rem;
+  color: #777;
+}
