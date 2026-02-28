@@ -33,6 +33,7 @@
     margin: 0 auto;
     gap: 2rem;
     padding: 10px;
+    align-items: flex-start;
 }
 
 /* Events Section */
