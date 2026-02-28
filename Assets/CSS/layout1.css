@@ -67,12 +67,12 @@ footer {
 /* Main Content of the Footer */
 .footer-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    max-width: 1200px;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 700px;
     margin: 0 auto;
+    gap: 2rem;
+    padding: 10px;
 }
 
 /* Styling the links inside the footer */
@@ -100,11 +100,6 @@ footer a:hover {
 /* Left part of the footer content */
 .footer-left {
     text-align: left;
-}
-
-/* center part of the footer content */
-.footer-center {
-   text-align: center;
 }
 
 /* right part of the footer content */
