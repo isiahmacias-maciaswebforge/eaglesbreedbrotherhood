@@ -17,20 +17,13 @@
 
 /* Container for Mission Statment and Vision Statment */
 .importantStatements{
-    text-align: center;
-    font-size: 14px;
-    border-top: 1px solid #ccc;
-    padding-top: 15px;
-}
-
-/* Mission Statement */
-.missionStatement {
-    text-align: left;
-}
-
-/* Vision Statement */
-.visionStatement {
-    text-align: right;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 10px;
 }
 
 /* Container for History Section, How to Become a Member Section ,and Sisterhood Section */
