@@ -28,34 +28,15 @@
 
 /* Container for History Section, How to Become a Member Section ,and Sisterhood Section */
 .tripleTextSection {
-    padding: 40px 20px 20px;
-    color: #fff;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    max-width: 1200px;
+    justify-content: space-between; 
     margin: 0 auto;
-}
-
-/* History Section */
-.historySection {
-    text-align: left;
-}
-
-/* How to Become a Member Section */
-.becomingMemberSetion {
-    text-align: center;
-}
-
-/* Sisterhood Section */
-.sisterhoodSection {
-    text-align: right;
+    gap: 2rem;
+    padding: 10px;
 }
 
 /* Events Section */
-.evntsSection {
+.eventsSection {
     text-align: center;
     font-size: 14px;
     border-top: 1px solid #ccc;
