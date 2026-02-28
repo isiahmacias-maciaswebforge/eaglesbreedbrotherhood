@@ -25,6 +25,19 @@
 
 
 /* Logo Styles */
+/* The logo in the footer */
+.mainLogo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* The logo in the footer */
 .footerLogo {
     max-width: 120px;
     border-radius: 12px;
@@ -32,9 +45,20 @@
 
 
 /* Other Global Styles */
+/* Our tagline */
 .tagline {
     font-style: italic;
     margin: 5px 0;
     color: #ffffff;
     font-size: 1rem;
+}
+
+/* All textboxes */
+.textBox {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(20, 20, 20, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
