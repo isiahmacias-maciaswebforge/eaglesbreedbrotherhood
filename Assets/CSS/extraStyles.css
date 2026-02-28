@@ -13,7 +13,6 @@
     letter-spacing: 3px; 
     font-family: 'Arial', sans-serif; 
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7), 0 0 25px rgba(255, 87, 51, 0.8); 
-    animation: slideIn 2s ease-out; 
 }
 
 /* Container for Mission Statment and Vision Statment */
