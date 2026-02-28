@@ -1,0 +1,82 @@
+/* Extra Styles */
+
+
+/* .ebffeb */
+.ebffeb {
+    font-size: 50px;
+    font-weight: bold;
+    color: black; 
+    text-align: center; 
+    margin-top: 40px;
+    margin-bottom: 40px; 
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+    font-family: 'Arial', sans-serif; 
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7), 0 0 25px rgba(255, 87, 51, 0.8); 
+    animation: slideIn 2s ease-out; 
+}
+
+/* Container for Mission Statment and Vision Statment */
+.importantStatements{
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+/* Mission Statement */
+.missionStatement {
+    text-align: left;
+}
+
+/* Vision Statement */
+visionStatement {
+    text-align: right;
+}
+
+/* Container for History Section, How to Become a Member Section ,and Sisterhood Section */
+.tripleTextSection {
+    padding: 40px 20px 20px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* History Section */
+.historySection {
+    text-align: left;
+}
+
+/* How to Become a Member Section */
+.becomingMemberSetion {
+    text-align: center;
+}
+
+/* Sisterhood Section */
+.sisterhoodSection {
+    text-align: right;
+}
+
+/* Events Section */
+.evntsSection {
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+/* Mother Events */
+.motherEvents {
+    text-align: left;
+}
+
+/* MiCo Events */
+.micoEvents {
+    text-align: right;
+}
+
