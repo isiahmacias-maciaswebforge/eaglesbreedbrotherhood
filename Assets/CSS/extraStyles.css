@@ -3,7 +3,8 @@
 
 /* .ebffeb */
 .ebffeb {
-    font-size: 50px;
+    line-height: 1.6;
+    font-size: 1.5rem;
     font-weight: bold;
     color: black; 
     text-align: center; 
