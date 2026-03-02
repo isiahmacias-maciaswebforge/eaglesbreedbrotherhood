@@ -55,7 +55,7 @@
 }
 
 /* Styling the links inside the textbox */
-textbox a {
+.textbox a {
   color: #add8e6; 
   text-decoration: underline;
   font-style: italic;
@@ -63,7 +63,7 @@ textbox a {
 }
 
 /* Styling the links inside the textbox once hovered over.*/
-textbox a:hover {
+.textbox a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
