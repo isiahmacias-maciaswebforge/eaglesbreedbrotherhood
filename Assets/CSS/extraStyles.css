@@ -54,16 +54,4 @@
     text-align: right;
 }
 
-/* Styling the links inside the textbox */
-.textBox a {
-  color: #add8e6; 
-  text-decoration: underline;
-  font-style: italic;
-  transition: color 0.3s ease;
-}
 
-/* Styling the links inside the textbox once hovered over.*/
-.textBox a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
