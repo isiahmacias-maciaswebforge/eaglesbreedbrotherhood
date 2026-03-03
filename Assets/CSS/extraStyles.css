@@ -44,23 +44,17 @@
     padding-top: 15px;
 }
 
-/* Mother Events */
-.motherEvents {
-    text-align: left;
-}
-
-/* MiCo Events */
-.micoEvents {
-    text-align: right;
-}
-
 /* Container for contacts */
 .contactSection{
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    max-width: 700px;
     margin: 0 auto;
     gap: 2rem;
-    padding: 10px;
+    align-items: flex-start;
+}
+
+/* Styling textBox inside contactSection */
+.contactSection .textBox {
+    width: 500px;
 }
