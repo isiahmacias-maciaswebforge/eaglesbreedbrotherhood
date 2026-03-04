@@ -1,0 +1,60 @@
+/* Extra Styles */
+
+
+/* .ebffeb */
+.ebffeb {
+    line-height: 1.6;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black; 
+    text-align: center; 
+    margin-bottom: 40px; 
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+    font-family: 'Arial', sans-serif; 
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7), 0 0 25px rgba(255, 87, 51, 0.8); 
+}
+
+/* Container for Mission Statment and Vision Statment */
+.importantStatements{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 10px;
+}
+
+/* Container for History Section, How to Become a Member Section ,and Sisterhood Section */
+.tripleTextSection {
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+/* Events Section */
+.eventsSection {
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+/* Container for contacts */
+.contactSection{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 auto;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+/* Styling textBox inside contactSection */
+.contactSection .textBox {
+    width: 500px;
+}
