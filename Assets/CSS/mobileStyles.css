@@ -1,0 +1,53 @@
+/* Layout1 */
+/* Stack sections side by side on desktop */
+.tripleTextSection,
+.importantStatements,
+.contactSection {
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Shrink contactSection textBoxes to fit smaller screens */
+.contactSection .textBox {
+    width: 100%;
+}
+
+/* Layout2 */
+/* Adjust main spacing for small screens */
+main {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+/* Extra Styles */
+/* Scale header and section headings */
+header h1 { font-size: 1.5rem; }
+.ebffeb { font-size: 1.2rem; }
+
+/* Scale text inside textBoxes and taglines */
+.textBox p { font-size: 0.9rem; }
+.tagline { font-size: 0.9rem; }
+
+/* Resize logos for small screens */
+.mainLogo { width: 150px; height: 150px; }
+.footerLogo { max-width: 100px; }
+
+/* Footer adjustments */
+.footer-content {
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Layout1 */
+/* Tiny screens < 400px adjustments */
+@media (max-width: 400px) {
+    main {
+        padding: 0.5rem;
+        margin: 0 0.5rem;
+    }
+    
+    header h1 { font-size: 1.3rem; }
+    .ebffeb { font-size: 1rem; }
+    .textBox p { font-size: 0.8rem; }
+    .tagline { font-size: 0.8rem; }
+}
