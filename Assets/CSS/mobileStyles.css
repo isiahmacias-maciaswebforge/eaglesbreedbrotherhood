@@ -7,9 +7,13 @@
     gap: 15px;
 }
 
+/* Layout2 */
 /* Shrink contactSection textBoxes to fit smaller screens */
 .contactSection .textBox {
     width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto 15px;
 }
 
 /* Layout2 */
@@ -21,17 +25,36 @@ main {
 
 /* Extra Styles */
 /* Scale header and section headings */
-header h1 { font-size: 1.5rem; }
-.ebffeb { font-size: 1.2rem; }
+header h1 {
+    font-size: 1.5rem;
+}
 
+.ebffeb {
+    font-size: 1.2rem;
+}
+
+/* Extra Styles */
 /* Scale text inside textBoxes and taglines */
-.textBox p { font-size: 0.9rem; }
-.tagline { font-size: 0.9rem; }
+.textBox p {
+    font-size: 0.9rem;
+}
 
+.tagline {
+    font-size: 0.9rem;
+}
+
+/* Extra Styles */
 /* Resize logos for small screens */
-.mainLogo { width: 150px; height: 150px; }
-.footerLogo { max-width: 100px; }
+.mainLogo {
+    width: 150px;
+    height: 150px;
+}
 
+.footerLogo {
+    max-width: 100px;
+}
+
+/* Layout1 */
 /* Footer adjustments */
 .footer-content {
     flex-direction: column;
@@ -41,13 +64,31 @@ header h1 { font-size: 1.5rem; }
 /* Layout1 */
 /* Tiny screens < 400px adjustments */
 @media (max-width: 400px) {
+    
     main {
         padding: 0.5rem;
         margin: 0 0.5rem;
     }
     
-    header h1 { font-size: 1.3rem; }
-    .ebffeb { font-size: 1rem; }
-    .textBox p { font-size: 0.8rem; }
-    .tagline { font-size: 0.8rem; }
+    header h1 {
+        font-size: 1.3rem;
+    }
+    
+    .ebffeb {
+        font-size: 1rem;
+    }
+    
+    .textBox p {
+        font-size: 0.8rem;
+    }
+    
+    .tagline {
+        font-size: 0.8rem;
+    }
+    
+    /* Contact boxes tweaks for tiny screens */
+    .contactSection .textBox {
+        padding: 10px;
+        max-width: 100%;
+    }
 }
