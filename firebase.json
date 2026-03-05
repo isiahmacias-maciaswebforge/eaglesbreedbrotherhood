@@ -7,7 +7,7 @@
             "**/node_modules/**"
         ],
         "rewrites": [
-            { "source": "/index", "destination": "/index.html" }
+            { "source": "/", "destination": "/index.html" }
         ]
     }
 }
