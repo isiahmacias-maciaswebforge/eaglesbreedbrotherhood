@@ -4,7 +4,7 @@
 /* Containers */
 /* Used to contain content and contrast "main" */
 .contentContainer {
-    background: rgb(255,255,255,0.95);
+    background: rgb(255,255,255,0.9);
     padding: 20px;
     border-radius: 12px;
     max-width: 1020px;
