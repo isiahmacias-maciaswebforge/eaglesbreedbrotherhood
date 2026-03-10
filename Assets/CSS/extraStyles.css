@@ -1,5 +1,20 @@
 /* Extra Styles */
+/* Button to go from index to Home */
+.exploreBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
 
+/* Hovering over the Button to go from index to Home */
+.exploreBtn:hover {
+    background-color: #0056b3;
+}
 
 /* .ebffeb */
 .ebffeb {
