@@ -73,10 +73,10 @@
 
 
 /* Get Involved Styles */
-/* The Split between each chapter's shirts */
+/* The split between each chapter's shirts */
 .supportShirtDisplay {
     display: flex;
-    justify-content: space-between; 
+    justify-content: center; 
     align-items: center;
     max-width: 700px;
     margin: 0 auto;
@@ -84,8 +84,15 @@
     padding: 10px;
 }
 
-/* Support Shirt Image Styling */
-.supportShirtDisplay img {
+/* Each Slot of shirt info */
+.shirtCard {
+    flex: 1;
+    text-align: center;
+}
+
+/* Each shirt container */
+.shirtCard img {
+    flex: 1;
     width: 100%;
     height: 260px;
     object-fit: cover;
@@ -93,10 +100,10 @@
     transition: transform 0.35s ease, filter 0.35s ease;
 }
 
-/* Hovering over an image englargens and brightens it */
-.supportShirtDisplay img:hover {
+/* Hover effect */
+.shirtCard img:hover {
     transform: scale(1.05);
-    filter: brightness(150%);
+    filter: brightness(1.25);
 }
 
 
