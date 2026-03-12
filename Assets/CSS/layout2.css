@@ -147,3 +147,16 @@ nav ul li a:hover {
   color: #2c0303;
   text-decoration: underline;
 }
+
+/* Styling the links inside the centered textbox */
+.centerTextBox a {
+  color: #a31212; 
+  text-decoration: underline;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+/* Styling the links inside the centered textbox once hovered over.*/
+.centerTextBox a:hover {
+  color: #2c0303;
+}
