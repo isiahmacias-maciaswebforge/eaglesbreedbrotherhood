@@ -93,10 +93,11 @@
 /* Each shirt container */
 .shirtCard img {
     flex: 1;
+    padding: 5px;
     width: 100%;
     height: 260px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 10px;
     transition: transform 0.35s ease, filter 0.35s ease;
 }
 
@@ -122,6 +123,7 @@
 .contactSection .textBox {
     width: 500px;
 }
+
 
 
 
