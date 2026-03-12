@@ -72,26 +72,7 @@
 }
 
 
-
-
-/* Container for History Section, How to Become a Member Section ,and Sisterhood Section */
-.tripleTextSection {
-    display: flex;
-    justify-content: space-between; 
-    margin: 0 auto;
-    gap: 2rem;
-    padding: 10px;
-    align-items: flex-start;
-}
-
-/* Events Section */
-.eventsSection {
-    text-align: center;
-    font-size: 14px;
-    border-top: 1px solid #ccc;
-    padding-top: 15px;
-}
-
+/* Contact Styles */
 /* Container for contacts */
 .contactSection{
     display: flex;
@@ -106,3 +87,6 @@
 .contactSection .textBox {
     width: 500px;
 }
+
+
+
