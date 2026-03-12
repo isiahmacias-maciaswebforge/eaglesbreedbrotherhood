@@ -111,7 +111,7 @@ nav ul li a:hover {
 }
 
 /* All textboxes */
-.textBox {
+.textBox, .centerTextBox {
     margin-bottom: 20px;
     margin-top: 20px;
     background-color: rgba(20, 20, 20, 0.2);
@@ -124,6 +124,14 @@ nav ul li a:hover {
 .textBox p {
     padding: 5px;
     line-height: 1.7;
+    text-align: left;
+}
+
+/* Some textboxes needs centred text*/
+.centerTextBox p {
+    padding: 5px;
+    line-height: 1.7;
+    text-align: center;
 }
 
 /* Styling the links inside the textbox */
