@@ -72,6 +72,34 @@
 }
 
 
+/* Get Involved Styles */
+/* The Split between each chapter's shirts */
+.supportShirtDisplay {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 10px;
+}
+
+/* Support Shirt Image Styling */
+.supportShirtDisplay img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+/* Hovering over an image englargens and brightens it */
+.supportShirtDisplay img:hover {
+    transform: scale(1.05);
+    filter: brightness(150%);
+}
+
+
 /* Contact Styles */
 /* Container for contacts */
 .contactSection{
