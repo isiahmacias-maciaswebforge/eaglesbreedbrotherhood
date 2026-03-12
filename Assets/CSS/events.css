@@ -3,19 +3,37 @@
 
 /* The Styled List of each chapter's events */
 .eventsList {
-    justify-content: space-between; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 20px;
 }
 
 /* Events Button to open module */
 .eventsBtn {
-    color: blue;
-    width: 50px;
-    height: 20px;
+    background-color: #1e3a8a;
+    width: 250px;
+    height: 250px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 /* Hover Style for Events Button */
 .eventsBtn:hover {
-    color: darkblue;
+    background-color: #162d6b;
+    transform: scale(1.05);
 }
 
 /* The Dark overlay behind the modal */
@@ -41,6 +59,7 @@
 .modal {
     border: 5px solid #ffffff;
     background-color: #000000;
+    color: white;
     text-align: center;
     margin: 10px;
     padding: 25px 30px;
@@ -57,13 +76,18 @@
 /* The Close button in the modal */
 .closeModal {
     position: absolute;
-    top: 12px;
-    right: 12px;
-    font-size: 24px;
+    top: 10px;
+    right: 14px;
+    font-size: 28px;
     background: none;
     border: none;
     cursor: pointer;
     color: white;
+    transition: color 0.2s ease;
+}
+
+.closeModal:hover {
+    color: #aaa;
 }
 
 /* The Title text inside the modal */
@@ -76,8 +100,10 @@
 
 /* The Paragraph items inside the modal content */
 #modalContent p {
-    position: relative;
-    padding-left: 20px;
     text-align: left;
-    padding: 5px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #111;
+    border-left: 4px solid #1e3a8a;
+    border-radius: 6px;
 }
