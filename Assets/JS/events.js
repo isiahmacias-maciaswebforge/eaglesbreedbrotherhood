@@ -26,8 +26,8 @@ const packageData = {
           - Raffles, Live Band, good food and drinks.<br>
       </p>
       <p>
-          <strongVeterans Run 2026:</strong<br>
-          - May 23rd (Rain Date: May 30th)
+          <strong>Veterans Run 2026:</strong><br>
+          - May 23rd (Rain Date: May 30th)<br>
           - Standard High/Low hand poker Run<br>
           - Registration: 10am-12pm at Operation Veterans:<br>
           - Kickstands up at 12:30pm<br>
