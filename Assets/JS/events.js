@@ -8,7 +8,9 @@ const packageData = {
     title: "Upcoming Mother Chapter Events",
     content: `
       <p>
-          
+          <strong>Bike Night at One More 2026:</strong><br>
+          - April 4th<br>
+          - One More bar in Piqua<br>
       </p>
     `
   },
@@ -17,13 +19,15 @@ const packageData = {
     title: "Upcoming Miami County Chapter Events",
     content: `
       <p>
-          Bike Night Spring 2026:<br>
+          <strong>Bike Night at Sharp's 2026:</strong><br>
+          - April 24th (Rain Date: May 1st)<br>
           - Sharp's Bar & Grill in Sidney<br>
           - 6pm-9pm<br>
           - Raffles, Live Band, good food and drinks.<br>
       </p>
       <p>
-          Veterans Run 2026:<br>
+          <strongVeterans Run 2026:</strong<br>
+          - May 23rd (Rain Date: May 30th)
           - Standard High/Low hand poker Run<br>
           - Registration: 10am-12pm at Operation Veterans:<br>
           - Kickstands up at 12:30pm<br>
