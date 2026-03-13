@@ -1,36 +1,85 @@
+/* Mobile Styles */
+
+
 /* Layout1 */
-/* Stack sections side by side on desktop */
-.tripleTextSection,
+
+
+/* Stack multi-column sections vertically */
 .importantStatements,
-.contactSection {
+.contactSection,
+.supportShirtDisplay {
     flex-direction: column;
     gap: 15px;
 }
 
-/* Layout2 */
-/* Shrink contactSection textBoxes to fit smaller screens */
-.contactSection .textBox {
-    width: 100%;
-    max-width: 400px;
-    padding: 15px;
-    margin: 0 auto 15px;
+
+/* Footer layout adjustment */
+.footer-content {
+    flex-direction: column;
+    gap: 10px;
 }
 
-/* Layout2 */
-/* Adjust main spacing for small screens */
+
+/* Adjust main spacing for mobile */
 main {
     margin: 0 1rem;
     padding: 1rem;
 }
 
+
+
+
+/* Layout2 */
+
+
+/* Navigation wraps instead of overflowing */
+nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+
+/* Contact textBoxes fit smaller screens */
+.contactSection .textBox {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: 0 auto 15px;
+}
+
+
+
+
 /* Extra Styles */
+
+
+/* Gallery becomes single column */
+.galleryGrid {
+    grid-template-columns: 1fr;
+}
+
+.galleryGrid img {
+    height: 220px;
+}
+
+
+/* Shirt images scale better */
+.shirtCard img {
+    height: 220px;
+}
+
+
 /* Keep background image fixed like desktop */
 body {
     background-attachment: fixed;
 }
 
-/* Extra Styles */
-/* Scale header and section headings */
+
+/* Scale headings for phones */
 header h1 {
     font-size: 1.5rem;
 }
@@ -39,18 +88,18 @@ header h1 {
     font-size: 1.2rem;
 }
 
-/* Extra Styles */
-/* Scale text inside textBoxes and taglines */
+
+/* Scale text content */
 .textBox p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 
 .tagline {
     font-size: 0.9rem;
 }
 
-/* Extra Styles */
-/* Resize logos for small screens */
+
+/* Resize logos */
 .mainLogo {
     width: 150px;
     height: 150px;
@@ -60,15 +109,37 @@ header h1 {
     max-width: 100px;
 }
 
-/* Layout1 */
-/* Footer adjustments */
-.footer-content {
+
+
+
+/* Events */
+
+
+/* Stack event buttons */
+.eventsList {
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
-/* Layout1 */
-/* Tiny screens < 400px adjustments */
+
+/* Smaller event buttons */
+.eventsBtn {
+    width: 200px;
+    height: 200px;
+    font-size: 1rem;
+}
+
+
+/* Modal fits smaller screens */
+.modal {
+    padding: 20px;
+    width: 95%;
+}
+
+
+
+
+/* Tiny screens */
 @media (max-width: 400px) {
 
     main {
@@ -85,16 +156,26 @@ header h1 {
     }
 
     .textBox p {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
 
     .tagline {
         font-size: 0.8rem;
     }
 
-    /* Contact boxes tweaks for tiny screens */
     .contactSection .textBox {
         padding: 10px;
         max-width: 100%;
     }
+
+    .eventsBtn {
+        width: 170px;
+        height: 170px;
+        font-size: 0.9rem;
+    }
+
+    .galleryGrid img {
+        height: 200px;
+    }
+
 }
