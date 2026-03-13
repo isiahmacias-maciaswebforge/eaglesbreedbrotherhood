@@ -12,6 +12,9 @@ const packageData = {
           - April 4th<br>
           - One More bar in Piqua<br>
       </p>
+      <p>
+          <strong>Hotrods and Harleys 2026:</strong><br>
+          - June 6th<br>
     `
   },
 
