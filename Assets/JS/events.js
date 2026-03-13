@@ -23,7 +23,7 @@ const packageData = {
           - Raffles, Live Band, good food and drinks.<br>
       </p>
       <p>
-          Veterans Run 2025:<br>
+          Veterans Run 2026:<br>
           - Standard High/Low hand poker Run<br>
           - Registration: 10am-12pm at Operation Veterans:<br>
           - Kickstands up at 12:30pm<br>
