@@ -72,6 +72,21 @@
 }
 
 
+/* About Styles */
+/* Each Presidnet's Picture */
+.prezPic{
+    max-width: 220px;
+    border-radius: 12px;
+    transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+/* Hover affect for Each Presidnet's Picture */
+.prezPic:hover{
+    transform: scale(1.05);
+    filter: brightness(110%);
+}
+
+
 /* Get Involved Styles */
 /* The split between each chapter's shirts */
 .supportShirtDisplay {
