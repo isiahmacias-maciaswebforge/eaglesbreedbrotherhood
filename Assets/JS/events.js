@@ -10,11 +10,9 @@ const packageData = {
       <p>
           <strong>Bike Night at One More 2026:</strong><br>
           - April 4th<br>
+          - Starts at 6pm
           - One More bar in Piqua<br>
       </p>
-      <p>
-          <strong>Hotrods and Harleys 2026:</strong><br>
-          - June 6th<br>
     `
   },
 
@@ -26,7 +24,8 @@ const packageData = {
           - April 24th (Rain Date: May 1st)<br>
           - Sharp's Bar & Grill in Sidney<br>
           - 6pm-9pm<br>
-          - Raffles, Live Band, good food and drinks.<br>
+          - Live Music
+          - Good food and drinks, 50/50, and More Raffles, Live Band.<br>
       </p>
       <p>
           <strong>Veterans Run 2026:</strong><br>
@@ -40,7 +39,6 @@ const packageData = {
           - Ends back at Operation Veterans<br>
           - Food, Raffles, Auctions, and fun at the end<br>
       </p>
-      
     `
   }
 };
