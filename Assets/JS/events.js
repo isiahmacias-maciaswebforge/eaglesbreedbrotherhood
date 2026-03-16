@@ -10,7 +10,7 @@ const packageData = {
       <p>
           <strong>Bike Night at One More 2026:</strong><br>
           - April 4th<br>
-          - Starts at 6pm
+          - Starts at 6pm<br>
           - One More bar in Piqua<br>
       </p>
     `
@@ -24,7 +24,7 @@ const packageData = {
           - April 24th (Rain Date: May 1st)<br>
           - Sharp's Bar & Grill in Sidney<br>
           - 6pm-9pm<br>
-          - Live Music
+          - Live Music<br>
           - Good food and drinks, 50/50, and More Raffles, Live Band.<br>
       </p>
       <p>
