@@ -8,10 +8,14 @@ const packageData = {
     title: "Upcoming Mother Chapter Events",
     content: `
       <p>
-          <strong>Bike Night at One More 2026:</strong><br>
+          <strong>Bike Night at 1 More 2026:</strong><br>
           - April 4th<br>
+          - 1 More Bar in Piqua
           - Starts at 6pm<br>
-          - One More bar in Piqua<br>
+          - Food<br>
+          - Music<br>
+          - 50/50 raffle<br>
+          - Plus a good time with family 7 Friends<br>
       </p>
     `
   },
