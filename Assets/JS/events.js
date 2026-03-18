@@ -10,7 +10,7 @@ const packageData = {
       <p>
           <strong>Bike Night at 1 More 2026:</strong><br>
           - April 4th<br>
-          - 1 More Bar in Piqua
+          - 1 More Bar in Piqua<br>
           - Starts at 6pm<br>
           - Food<br>
           - Music<br>
